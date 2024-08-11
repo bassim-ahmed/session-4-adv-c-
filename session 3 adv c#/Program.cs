@@ -71,11 +71,11 @@ namespace session_3_adv_c_
 
             #endregion
             #region part 6 generic collection
-            Dictionary<string,long> Note=new Dictionary<string,long>();
-            Note.Add("ahmed", 7777);
-            foreach (KeyValuePair<string,long> entry in Note) {
-                Console.WriteLine($"{entry.Key},{entry.Value}");
-            }
+            //Dictionary<string,long> Note=new Dictionary<string,long>();
+            //Note.Add("ahmed", 7777);
+            //foreach (KeyValuePair<string,long> entry in Note) {
+            //    Console.WriteLine($"{entry.Key},{entry.Value}");
+            //}
             #endregion
 
         }
